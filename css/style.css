@@ -1,0 +1,357 @@
+  body {
+      padding: 0;
+      margin: 0;
+      font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 14px;
+  }
+
+  #nav-container {
+      background-color: #2C3E50;
+      height: 100px;
+     
+  }
+
+  #nav-inner {
+      font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 1170px;
+      height: 100px;
+      margin: 0 auto;
+
+  }
+
+  a[id="logo"] {
+      float: left;
+
+      font-size: 2em;
+      margin-top: 35px;
+  }
+
+  #nav-menu {
+      float: right;
+      margin: 40px 10px;
+
+
+  }
+
+  #nav-inner a {
+      color: #fff;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none;
+
+  }
+
+  #nav-menu li {
+      float: left;
+      margin: 0 12px;
+      list-style: none;
+
+  }
+
+
+  #nav-menu li a {
+      letter-spacing: 1px;
+
+      transition-duration: .5s;
+      transition-timing-function: ease-in-out;
+
+  }
+
+  #nav-menu li a:hover {
+      color: #18BC9C;
+  }
+
+  .clear {
+      clear: both;
+  }
+
+/*Header*/
+
+#header{
+    text-align: center;
+    color:#fff;
+    background-color: #18BC9C;
+}
+
+.container{
+    width:1170px;
+    margin: 0 auto;
+}
+
+#header img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+#header .container{
+    padding-top:100px;
+    padding-bottom: 66px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#header h1{
+    font-size: 4.75em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#star-line{
+    border: none;
+    border-top:solid 5px;
+    max-width: 250px;
+    margin-bottom: 15px;
+}
+
+#font-img{
+   position: relative;
+   bottom: 35px;
+    left: 330px;
+    font-size: 30px;
+    background-color:#18BC9C;
+    padding: 0 10px 0px 10px;
+}
+
+#header span{
+    font-size: 25px;
+    display: inline-block;
+    
+}
+
+#content{
+    text-align: center;
+}
+
+#black-star{
+    font-size: 30px;
+    padding: 5px;
+    background-color: #fff;
+    position: relative;
+    top:-38px;
+}
+
+#h-portfolio{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:50px;
+    padding-top: 100px;
+}
+
+.portfolio-item{
+    width: 32%;
+    height: 250px;
+    
+    display: inline-block;
+    margin-right: 1%;
+    margin-top:10px;
+}
+
+.portfolio-item img{
+    width: 100%;
+    
+}
+
+.portfolio-item a{
+    display: block;
+    position: relative;
+}
+
+.caption{
+    background-color:#18BC9C;
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 99%;
+    opacity: 0;
+}
+
+.caption:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition-duration: 1.25s;
+    transition-timing-function: ease-in;
+}
+
+#search-icon{
+    color: #fff;
+    position: absolute;
+    top:45%;
+    left:46%;
+    font-size: 40px;
+}
+
+#about{
+    box-sizing: border-box;
+    background-color: #18BC9C;
+    min-height: 300px;
+    padding:70px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#about-h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+#about-font-img{
+    position: relative;
+    top:-35px;
+    font-size: 35px;
+    color: white;
+    background-color: #18BC9C;
+    padding: 8px;
+}
+
+#about-star-line{
+    border:none;
+    border-top:solid 5px;
+    max-width: 250px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#about-p{
+    column-count: 2;
+    text-align: left;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-family: Lato;
+    color: #fff;
+    line-height: 1.65em;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+#about-button{
+    font-size: 30px;
+    margin-top: 20px;
+    border: 2px solid white;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+#about button i{
+    margin-right: 15px;
+}
+
+#about-button:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+
+#contact h2{
+    font-size:4.75em;
+    font-family: Lato;
+    text-align: center;
+    padding:15px;
+    margin:15px 0;
+}
+
+#contact-hr{
+    border:none;
+    border-top:2px solid #2C3E50;
+    max-width: 250px;
+}
+
+#contact-star-icon{
+    position:relative;
+    bottom: 35px;
+    left: 48%;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #fff;
+    color:black;
+}
+
+#contact-input-name{
+    border:none;
+    border-top:1px solid gray;
+    display: block;
+    position: relative;
+    margin:10px auto;
+    min-width: 70%;
+    height: 40px;
+    font-family: Lato;
+    font-size: 2em;
+    margin-bottom: 40px;
+    
+}
+
+#contact-input-email{
+    border:none;
+    border-top:1px solid gray;
+    display: block;
+    position: relative;
+    margin:10px auto;
+    min-width: 70%;
+    height: 40px;
+    font-family: Lato;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+#contact-input-phone{
+    border:none;
+    border-top:1px solid gray;
+    display: block;
+    position: relative;
+    margin:10px auto;
+    min-width: 70%;
+    height: 40px;
+    font-family: Lato;
+    font-size: 2em;
+    margin-bottom: 40px;
+    
+}
+
+textarea{
+    display: inline-block;
+    width:72%;
+    height: 120px;
+    margin-left: 168px;
+    font-family: Lato;
+    font-size: 2em;
+    border: none;
+    border-top:1px solid gray;
+    border-radius: 4px;
+    resize: none;
+}
+
+#contact{
+    box-sizing: border-box;
+    height: 700px;
+    padding: 50px 0;
+}
+
+#contact-button{
+    display: block;
+    width: 8%;
+    height: 50px;
+    position: relative;
+    left:168px;
+    top:60px;
+    border:none;
+    border:1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color:#18BC9C;
+    color: white;
+}
+
+
